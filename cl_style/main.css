@@ -1,0 +1,309 @@
+/*--------------------------------------*/
+/* CSS File for CL_Auth Documentation	*/
+/* Flash - 2008							*/
+/* http://www.jasonashdown.co.uk		*/
+/*--------------------------------------*/
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Lucida Grande, Verdana, Geneva, Sans-serif;
+ font-size: 14px;
+ color: #4F5155;
+ background-color: #fff;
+}
+
+a {
+ color: #003399;
+ background-color: transparent;
+ text-decoration: none;
+ font-weight: normal;
+}
+a:visited {
+ color: #003399;
+ background-color: transparent;
+ text-decoration: none;
+}
+a:hover {
+ color: #000;
+ text-decoration: none;
+ background-color: transparent;
+}
+
+#header {
+background-color: #5d5d5d;
+color: #ddd;
+padding: 10px 5px;
+margin-bottom: 30px;
+}
+
+#header a {
+font-family: Verdana, tahoma, sans-serif;
+font-weight: bold;
+color: #fff;
+text-decoration: underline;
+}
+
+#menu-button {
+display: block;
+width: 191px;
+background-color: #8d2;
+color: #000;
+padding: 5px;
+text-align: center;
+}
+
+#nav {
+float: left;
+width: 200px;
+border-right: 1px solid #ccc;
+margin-right: 25px;
+background-color: #fff;
+}
+
+#inner_content {
+margin-left: 226px;
+}
+
+#content {
+ margin: 20px 40px 0 40px;
+ padding: 0;
+}
+
+#content p {
+ margin: 10px 20px 12px 0;
+}
+
+#content h1 {
+color: #333;
+background-color: #efefef;
+font-weight: normal;
+font-size: 22px;
+margin: 0 0 15px 0;
+padding: 3px 2px 3px 10px;
+}
+
+#content h2 {
+ background-color: transparent;
+ border-bottom: 1px solid #D0D0D0;
+ color: #444;
+ font-size: 16px;
+ font-weight: bold;
+ margin: 24px 0 2px 0;
+ padding: 5px 0 6px 0;
+}
+
+#content h3 {
+ background-color: transparent;
+ color: #333;
+ font-size: 14px;
+ font-weight: bold;
+ margin: 22px 0 12px 0;
+ padding: 0 0 0 0;
+}
+
+#content h4 {
+ background-color: transparent;
+ color: #444;
+ font-size: 14px;
+ font-weight: bold;
+ margin: 22px 0 0 0;
+ padding: 0 0 0 0;
+}
+
+#content img {
+ margin: auto;
+ padding: 0;
+}
+
+#content code {
+ font-family: Monaco, 'Lucida Console', Verdana, Sans-serif;
+ font-size: 12px;
+ background-color: #f9f9f9;
+ border: 1px solid #D0D0D0;
+ color: #002166;
+ display: block;
+ margin: 14px 0 14px 0;
+ padding: 12px 10px 12px 10px;
+}
+
+#content pre {
+ font-family: Monaco, 'Lucida Console', Verdana, Sans-serif;
+ font-size: 12px;
+ background-color: #f9f9f9;
+ border: 1px solid #D0D0D0;
+ color: #002166;
+ display: block;
+ margin: 14px 0 14px 0;
+ padding: 12px 10px 12px 10px;
+}
+
+#content .path {
+ background-color: #EBF3EC;
+ border: 1px solid #99BC99;
+ color: #005702;
+ text-align: center;
+ margin: 0 0 14px 0;
+ padding: 5px 10px 5px 8px;
+}
+
+#content dfn {
+ font-family: Lucida Grande, Verdana, Geneva, Sans-serif;
+ color: #00620C;
+ font-weight: bold;
+ font-style: normal;
+}
+#content var {
+ font-family: Lucida Grande, Verdana, Geneva, Sans-serif;
+ color: #8F5B00;
+ font-weight: bold;
+ font-style: normal;
+}
+#content samp {
+ font-family: Lucida Grande, Verdana, Geneva, Sans-serif;
+ color: #480091;
+ font-weight: bold;
+ font-style: normal;
+}
+#content kbd {
+ font-family: Lucida Grande, Verdana, Geneva, Sans-serif;
+ color: #A70000;
+ font-weight: bold;
+ font-style: normal;
+}
+#content cite {
+ /* inherit font-family */
+ color: #dd8000;
+ font-style: normal;
+}
+
+#content ul {
+ list-style-image: url(images/arrow.gif);
+ padding: 0 0 0 18px;
+ margin: 8px 0 12px 0;
+}
+
+#content li {
+ padding: 0;
+ margin: 0 0 6px 0;
+}
+
+#content li p {
+ margin-left: 0;
+ margin-right: 0;
+}
+
+#content .important {
+ background: #FBE6F2;
+ border: 1px solid #D893A1;
+ color: #333;
+ margin: 10px 0 5px 0;
+ padding: 10px;
+}
+
+#content .important p {
+ margin: 6px 0 8px 0;
+ padding: 0;
+}
+
+#content .important .leftpad {
+ margin: 6px 0 8px 0;
+ padding-left: 20px;
+}
+
+#content .critical {
+ background: #FBE6F2;
+ border: 1px solid #E68F8F;
+ color: #333;
+ margin: 10px 0 5px 0;
+ padding: 10px;
+}
+
+#content .critical p {
+ margin: 5px 0 6px 0;
+ padding: 0;
+}
+
+#footer {
+clear: left;
+font-size: 10px;
+margin-top: 35px;
+text-align: center;
+}
+
+/* Misc
+**********/
+
+.center {
+ text-align: center;
+}
+
+img {
+ padding:0;
+ border: 0;
+ margin: 0;
+}
+
+.nopad {
+ padding:0;
+ border: 0;
+ margin: 0;
+}
+
+form {
+ margin: 0;
+ padding: 0;
+}
+
+label { cursor: pointer; }
+
+
+/* Example
+************/
+
+.small {
+font-size: 0.9em;
+padding-left: 10px;
+}
+
+#login-bar {
+background-color: #eee;
+color: #666;
+padding: 10px;
+}	
+
+#login-bar input {
+	margin-right: 20px;
+}
+
+#user-links {
+	margin: 10px;
+}
+
+
+fieldset dl {
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+}
+
+fieldset dl dt {
+	float: left;
+	width: 20%;
+	text-align: right;
+	padding: 10px;
+}
+
+fieldset dl dd {
+	display: block;
+	margin-left: 21%;
+	padding: 10px;
+}
+
+.error {
+	color: #d00;
+	padding-left: 15px;
+	background-image: url('images/warning.gif');
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
